@@ -25,6 +25,15 @@
           <li class="nav-item">
             <router-link class="nav-link pr-3" to="/feedbacklist">View Feedback</router-link>
           </li>
+          <li class="nav-item">
+            <router-link class="nav-link pr-3" to="/register">Register</router-link>
+          </li>
+                    <li class="nav-item">
+            <router-link class="nav-link pr-3" to="/dashboard">Dashboard</router-link>
+          </li>
+          <li class="nav-item">
+            <button @click="logout">Logout</button>
+          </li>          
           
 
         </ul>
